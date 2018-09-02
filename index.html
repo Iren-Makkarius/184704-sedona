@@ -24,8 +24,7 @@
           <h1 class="visually-hidden">Седона</h1>
           <!--будущая маска -->
         </section>
-        <section class="index-about-sedona">
-          <h2 class="viaually-hidden">О Седоне</h2>
+        <section class="index-about-sedona" aria-label="О Седоне">
           <b>
             Седона - небольшой городок в Аризоне, заслуживающий большего!
           </b>
@@ -114,17 +113,17 @@
           <p>
             Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Селоне
           </p>
+          <p>Поиск гостиницы в Седоне</p>
           <!-- форма -->
           <form class="sedona-form" action="/sedona" method="get">
             <fieldset>
-              <legend>Поиск гостиницы в Седоне</legend>
               <p class="sedona-form-item">
                 <label for="sedona-form-item-date-arrival">Дата заезда:</label>
-                <input id="sedona-form-item-date-arrival" type="date" name="date-arrival" value="" placeholder="24 апреля 2017">
+                <input id="sedona-form-item-date-arrival" type="text" name="date-arrival" value="" placeholder="24 апреля 2017">
               </p>
               <p class="sedona-form-item">
                 <label for="sedona-form-item-date-departure">Дата выезда:</label>
-                <input id="sedona-form-item-date-departure" type="date" name="date-departure" value="" placeholder="4 июля 2017">
+                <input id="sedona-form-item-date-departure" type="text" name="date-departure" value="" placeholder="4 июля 2017">
               </p>
               <p class="sedona-form-item">
                 <label for="sedona-form-item-adults">Взрослые:</label>
@@ -152,13 +151,13 @@
       <div class="footer-social">
         <ul>
           <li>
-            <a class="footer-social-button" href="#">Вконтакте</a>
+            <a class="footer-social-button" href="#" aria-label="В контакте">Вконтакте</a>
           </li>
           <li>
-            <a class="footer-social-button" href="#">Фейсбук</a>
+            <a class="footer-social-button" href="#" aria-label="Фейсбук">Фейсбук</a>
           </li>
           <li>
-            <a class="footer-social-button" href="#">Ютуб</a>
+            <a class="footer-social-button" href="#" aria-label="Ютуб">Ютуб</a>
           </li>
         </ul>
       </div>

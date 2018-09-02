@@ -22,10 +22,57 @@
     <main class="container">
       <section class="inner-filter">
         <h1 class="visually-hidden">Фильтр товаров</h1>
-        <!-- Здесь будет форма -->
+        <!--  форма -->
+        <form class="inner-filter" method="get" action="/sedona">
+          <fieldset>
+            <legend>
+              Инфраструктура:
+            </legend>
+           <ul>
+             <li class="inner-filter-option">
+               <input id="inner-filter-option-pool" class="inner-filter-option-checkbox" type="checkbox" name="pool" checked>
+               <label for="inner-filter-option-pool">Бассейн</label>
+             </li>
+             <li class="inner-filter-option">
+              <input id="inner-filter-option-parking" class="inner-filter-option-checkbox" type="checkbox" name="parking">
+              <label for="inner-filter-option-parking">Парковка</label>
+             </li>
+             <li class="inner-filter-option">
+               <input id="inner-filter-option-wifi" class="inner-filter-option-checkbox" type="checkbox" name="wifi">
+               <label for="inner-filter-option-wifi">Wi-Fi</label>
+             </li>
+           </ul>
+          </fieldset>
+          <fieldset>
+            <legend>
+              Тип жилья:
+            </legend>
+            <ul>
+              <li class="inner-filter-option">
+                <input id="inner-filter-option-hotel" class="inner-filter-option-checkbox" type="checkbox" name="hotel" checked>
+                <label for="inner-filter-option-hotel">Гостиница</label>
+              </li>
+              <li class="inner-filter-option">
+                <input id="inner-filter-option-motel" class="inner-filter-option-checkbox" type="checkbox" name="motel" checked>
+                <label for="inner-filter-option-motel">Мотель</label>
+              </li>
+              <li class="inner-filter-option">
+                <input id="inner-filter-option-apartments" class="inner-filter-option-checkbox" type="checkbox" name="apartments" checked>
+                <label for="inner-filter-option-apartments">Апартаменты</label>
+              </li>
+            </ul>
+          </fieldset>
+          <div class="inner-filter-price">
+            <label for="inner-filter-price-day">Стоимость в сутки (Р):</label>
+            <span>От 0</span>
+            <span>До 3000</span> <br>
+            <input id="inner-filter-price-day" type="range" name="price" min="0" max="3000" step="100">
+          </div>
+          <button class="button" type="submit">Показать</button>
+        </form>
       </section>
 
-      <section class="inner-filter-search">
+      <div class="inner-filter-search">
         <b>Найдено:3</b>
         <div>Сортировка товара:</div>
         <ul class="inner-filter-search-list">
@@ -40,7 +87,7 @@
           </li>
         </ul>
         <div><!--треугольники выбора --></div>
-      </section>
+      </div>
 
       <section class="inner-hotels">
         <ul class="inner-hotels-list">

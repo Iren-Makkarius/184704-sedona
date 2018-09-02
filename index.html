@@ -25,6 +25,7 @@
           <!--будущая маска -->
         </section>
         <section class="index-about-sedona">
+          <h2 class="viaually-hidden">О Седоне</h2>
           <b>
             Седона - небольшой городок в Аризоне, заслуживающий большего!
           </b>
@@ -34,6 +35,7 @@
         </section>
 
         <section class="sedona-advantages">
+          <h3 class="visually-hidden">Преимущества Седоны</h3>
           <div class="sedona-advantages-line">
             <div class="sedona-advantages-line-block">
               <b>Настоящий городок</b>
@@ -107,14 +109,38 @@
         </section>
 
         <section class="index-form">
+          <h4 class="visually hidden">Форма поиска гостиниц</h4>
           <b>Заинтересовались?</b>
           <p>
             Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Селоне
           </p>
-          <!-- Здесь будет форма -->
+          <!-- форма -->
+          <form class="sedona-form" action="/sedona" method="get">
+            <fieldset>
+              <legend>Поиск гостиницы в Седоне</legend>
+              <p class="sedona-form-item">
+                <label for="sedona-form-item-date-arrival">Дата заезда:</label>
+                <input id="sedona-form-item-date-arrival" type="date" name="date-arrival" value="" placeholder="24 апреля 2017">
+              </p>
+              <p class="sedona-form-item">
+                <label for="sedona-form-item-date-departure">Дата выезда:</label>
+                <input id="sedona-form-item-date-departure" type="date" name="date-departure" value="" placeholder="4 июля 2017">
+              </p>
+              <p class="sedona-form-item">
+                <label for="sedona-form-item-adults">Взрослые:</label>
+                <input id="sedona-form-item-adults" type="number" name="adults" value="" placeholder="2">
+              </p>
+              <p class="sedona-form-item">
+                <label for="sedona-form-item-kids">Дети:</label>
+                <input id="sedona-form-item-kids" type="number" name="kids" value="" placeholder="0">
+              </p>
+              <button class="button" type="submit">Найти</button>
+            </fieldset>
+          </form>
         </section>
 
         <section class="index-map">
+          <h4 class="visually-hidden">Карта Седоны</h4>
           <img src="img/index-map.jpg" width="1200" height="473" alt="Карта Седоны">
         </section>
     </main>

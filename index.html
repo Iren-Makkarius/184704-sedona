@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -34,9 +37,9 @@
         </section>
 
         <section class="sedona-advantages">
-          <h3 class="visually-hidden">Преимущества Седоны</h3>
+          <h2 class="visually-hidden">Преимущества Седоны</h2>
           <div class="sedona-advantages-line">
-            <div class="sedona-advantages-line-block">
+            <div class="sedona-advantages-item blue">
               <b>Настоящий городок</b>
               <span>№1</span>
               <p>
@@ -48,20 +51,20 @@
             </div>
           </div>
 
-          <ul class="sedona-advantages-list-1">
-            <li class="sedona-advantages-list-1-item">
+          <ul class="sedona-advantages-line">
+            <li class="sedona-advantages-item another">
               <b>Жилье</b>
               <p>
                 Рекомендуем пожить в натоящем мотеле, все как в кино!
               </p>
             </li>
-            <li class="sedona-advantages-list-1-item">
+            <li class="sedona-advantages-item another">
               <b>Еда</b>
               <p>
                 Всегда заказывайте фирменный бургер, вы не разочаруетесь!
               </p>
             </li>
-            <li class="sedona-advantages-list-1-item">
+            <li class="sedona-advantages-item another">
               <b>Сувениры</b>
               <p>
                 Не только китайского, но и местного производства!
@@ -73,7 +76,7 @@
             <div class="sedona-advantages-line-image">
               <img src="img/index-photo-2.jpg" width="800" height="400" alt="Мост Дьявола">
             </div>
-            <div class="sedona-advantages-line-block">
+            <div class="sedona-advantages-item blue">
               <b>Там есть мост дьявола</b>
               <span>№2</span>
               <p>
@@ -83,21 +86,21 @@
           </div>
 
           <ul class="sedona-advantages-list-2">
-            <li class="sedona-advantages-list-2-item">
+            <li class="sedona-advantages-item grey">
               <b>Небольшая площадь</b>
               <span>№3</span>
               <p>
                 Все достопримечательности находятся очень близко
               </p>
             </li>
-            <li class="sedona-advantages-list-2-item">
+            <li class="sedona-advantages-item grey">
               <b>Красивая дорога</b>
               <span>№4</span>
               <p>
                 Ехать в Седону из Лас-Вегаса совсем не скучно!
               </p>
             </li>
-            <li class="sedona-advantages-list-2-item">
+            <li class="sedona-advantages-item grey">
               <b>Мало туристов</b>
               <span>№5</span>
               <p>
@@ -108,12 +111,12 @@
         </section>
 
         <section class="index-form">
-          <h4 class="visually hidden">Форма поиска гостиниц</h4>
+          <h4 class="visually-hidden">Форма поиска гостиниц</h4>
           <b>Заинтересовались?</b>
           <p>
             Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Селоне
           </p>
-          <p>Поиск гостиницы в Седоне</p>
+          <span>Поиск гостиницы в Седоне</span>
           <!-- форма -->
           <form class="sedona-form" action="/sedona" method="get">
             <fieldset>
@@ -162,7 +165,7 @@
         </ul>
       </div>
       <div class="footer-logo">
-        <span>websiteby</span>
+        <span>website by</span>
         <a class="button" href="https://htmlacademy.ru">
           <!-- добавить svg -->
            <svg> width="115" height="41" alt="Логотип HTML ACADEMY"></svg>

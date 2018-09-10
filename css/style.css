@@ -41,7 +41,9 @@ a {
 
 .index-big-image {
   background-color: #81b3d2;
-  background-image: url("img/index-background photo.jpg");
+  background-image: url("../img/index-background photo.jpg");
+  width: 1200px;
+  height: 520px;
 }
 
 .index-about-sedona  {
@@ -221,10 +223,6 @@ a {
   line-height: 21px;
 }
 
-.inner-filter-search .price-html:active {
-  color: #81b3d2;
-}
-
 .inner-filter button {
   color: #ffffff;
   font-size: 14px;
@@ -237,6 +235,16 @@ a {
   background-color: #ffffff;
   color: #000000;
   outline: none;
+}
+
+.inner-hotels .button .detail {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+.inner-hotels .button .detail:hover {
+  background-color: #669ec0;
+  color: #ffffff;
 }
 
 

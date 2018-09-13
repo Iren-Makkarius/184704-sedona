@@ -299,18 +299,38 @@ a {
 
 
 
+/* ---------  ПОЗИЦИОНИРОВАНИЕ -----*/
+
+/*главная страница index и внутренняя*/
+.main-header-logo {
+  position: absolute;
+  top: 0px;
+  left: 680px;
+}
 
 
 
-/* ------------- сетки ------------ */
+
+
+
+
+
+
+
+
+
+/* ------------- СЕТКИ ------------ */
+
+/*главная страница index*/
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
 }
-/*главная страница index*/
+
 .main-header {
   display: flex;
+  min-height: 56px;
 }
 .site-navigation {
   display: flex;
@@ -422,6 +442,9 @@ a {
   margin-left: 73px;
   margin-right: 73px;
 }
+.inner-filter form {
+  width: 100%;
+}
 .inner-filter {
   display: flex;
   min-height: 215px;
@@ -477,7 +500,7 @@ a {
   width: 240px;
   margin-left: auto;
 }
-.main-footer .container-inner{
+.main-footer .container-inner {
   display: flex;
   margin-top: 35px;
   justify-content: space-around;
@@ -491,4 +514,21 @@ a {
 }
 .footer-logo {
   width: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------- ОФОРМЛЕНИЕ -----*/
+
+/*главная и внутренняя */
+.site-navigation li {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

@@ -237,35 +237,51 @@ a {
   outline: none;
 }
 
-.inner-hotels .button .detail {
+.inner-filter-search-list a {
+  text-decoration: underline;
+  color: #cacaca;
+}
+.inner-filter-search-list a:active {
+  text-decoration: none;
+  color: #81b3d2;
+}
+
+.inner-hotels-list-item h2:hover {
+  color: #81b3d2;
+}
+.inner-hotels-list-item h2:active {
+  color: #cacaca;
+}
+
+.detail {
   background-color: #81b3d2;
   color: #ffffff;
 }
-
-.inner-hotels .button .detail:hover {
+.detail:hover {
   background-color: #669ec0;
   color: #ffffff;
 }
+.detail:active {
+  background-color: #5496bd;
+  color: #88b6d1;
+}
 
+.booking {
+  background-color: #766357;
+  color: #ffffff;
+}
+.booking:hover {
+  background-color: #604e43;
+  color: #ffffff;
+}
+.booking:active {
+  background-color: #503e33;
+  color: #928a85;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.rating {
+  background-color: #f2f2f2;
+}
 
 .visually-hidden {
   position: absolute;
@@ -273,4 +289,100 @@ a {
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+
+
+
+
+
+/* ------------- сетки ------------ */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+/*главная страница index*/
+.main-header {
+  display: flex;
+
+}
+.site-navigation {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+.index-big-image {
+  margin-bottom: 65px;
+}
+.index-about-sedona b {
+  width: 450px;
+  margin-bottom: 30px;
+}
+.index-about-sedona p {
+  margin-bottom: 57px;
+}
+.sedona-advantages-line-1 {
+  display: flex;
+  height: 255px;
+}
+.sedona-advantages-line-image {
+  width: 800px;
+}
+.sedona-advantages-line-2 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 320px;
+}
+.sedona-advantages-item .another {
+  width: 400px;
+}
+.sedona-advantages-line-3 {
+  display: flex;
+  height: 255px;
+}
+.sedona-advantages-line-4 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 320px;
+  margin-bottom: 55px;
+}
+.index-form b {
+  width: 400px;
+  margin-bottom: 27px;
+}
+.index-form p {
+  width: 450px;
+  height: 50px;
+}
+.index-form span {
+  display: block;
+  width: 568px;
+  height: 85px;
+}
+.sedona-form {
+  width: 568px;
+  height: 356px;
+}
+.sedona-form button {
+  width: 458px;
+  height: 58px;
+}
+.main-footer .container{
+  display: flex;
+  margin-top: 35px;
+  justify-content: space-around;
+}
+.footer-hashtag {
+  width: 240px;
+}
+.footer-social {
+  width: 400px;
+  margin: 0;
+}
+.footer-logo {
+  width: 240px;
 }

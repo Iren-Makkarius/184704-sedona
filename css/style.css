@@ -305,7 +305,6 @@ a {
 /*главная страница index*/
 .main-header {
   display: flex;
-
 }
 .site-navigation {
   display: flex;
@@ -315,6 +314,15 @@ a {
 }
 .index-big-image {
   margin-bottom: 65px;
+  padding-top: 75px;
+}
+.index-big-image-above {
+  background-image: url("../img/index-welcome.svg");
+  background-repeat: no-repeat;
+  width: 460px;
+  height: 410px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .index-about-sedona b {
   width: 450px;
@@ -334,7 +342,7 @@ a {
   margin: 0;
   padding: 0;
   display: flex;
-  min-height: 320px;
+  min-height: 330px;
 }
 .sedona-advantages-item .another {
   width: 400px;
@@ -344,11 +352,19 @@ a {
   height: 255px;
 }
 .sedona-advantages-line-4 {
+  display: flex;
   margin: 0;
   padding: 0;
-  display: flex;
-  min-height: 320px;
+  min-height: 255px;
   margin-bottom: 55px;
+}
+.sedona-advantages-item .grey {
+  width: 400px;
+}
+.index-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .index-form b {
   width: 400px;

@@ -296,6 +296,12 @@ a {
 
 
 
+
+
+
+
+
+
 /* ------------- сетки ------------ */
 .container {
   width: 1200px;
@@ -388,6 +394,90 @@ a {
   height: 58px;
 }
 .main-footer .container{
+  display: flex;
+  margin-top: 35px;
+  justify-content: space-around;
+}
+.footer-hashtag {
+  width: 240px;
+}
+.footer-social {
+  width: 400px;
+  margin: 0;
+}
+.footer-logo {
+  width: 240px;
+}
+
+
+
+
+
+
+/*внутренняя страница отели*/
+.container-inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-left: 73px;
+  margin-right: 73px;
+}
+.inner-filter {
+  display: flex;
+  min-height: 215px;
+  margin: 0;
+  padding: 0;
+}
+.inner-filter-infrastructure {
+  width: 240px;
+  margin-top: 30px;
+}
+.inner-filter-type {
+  width: 240px;
+  margin-top: 30px;
+}
+.inner-filter-price {
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.inner-filter-price .button {
+  width: 133px;
+  height: 35px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inner-filter-search {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.inner-filter-search-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.inner-hotels-list-item {
+  display:flex;
+  margin-bottom: 30px;
+}
+.inner-hotels-left {
+  width: 135px;
+  min-height: 112px;
+  margin-right: 30px;
+}
+.inner-hotels-centre {
+  width: 360px;
+  min-height: 112px;
+  margin-right: auto;
+}
+.inner-hotels-right {
+  width: 240px;
+  margin-left: auto;
+}
+.main-footer .container-inner{
   display: flex;
   margin-top: 35px;
   justify-content: space-around;
